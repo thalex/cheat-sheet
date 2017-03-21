@@ -22,10 +22,10 @@ ssh user@server -p 22 'bash -s' < cmd.sh
 
 ### See all strings in any file
 ```
-string FILE
+strings FILE
 ```
 
 ### Search for STRING in all strings of a file
 ```
-string FILE |gre STRING
+strings FILE |gre STRING
 ```
