@@ -1,4 +1,4 @@
-# pwn4food - commandline cheat-sheet
+# Commandline cheat-sheet
 
 ### grep recursive
 ```
