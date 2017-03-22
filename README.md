@@ -86,7 +86,7 @@ sed -i 's/(//g' abc_patched.txt
 ```
 
 
-### Tabela simpes de comparação Hexa, Decimal, Octal e Binário
+### Tabela simples de comparação Hexa, Decimal, Octal e Binário
 
 
 |Hex  |Dec  |Oct  |Bin  |
