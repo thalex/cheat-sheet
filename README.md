@@ -30,56 +30,56 @@ strings FILE
 strings FILE |gre STRING
 ```
 
-### convert string to md5
+### Convert string to md5
 ```
 import hashlib
 hashlib.md5("meuovo".encode("utf")).hexdigest()
 ```
 
-### convert hex to ascii
+### Convert hex to ascii
 ```
 echo 0x00000000746F6F72 | xxd -rp
 ```
 
-### convert string to hex 
+### Convert string to hex 
 ```
 printf intrd | xxd
 ```
 
-### convert hex to decimal
+### Convert hex to decimal
 ```
 echo $((0x3c))
 ```
 
-### convert decimal to char
+### Convert decimal to char
 ```
 printf "\101\n"
 python hex to dec
 python -c "print(int('0x00000000746F6F72', 16))"
 ```
 
-### convert hex to ascii
+### Convert hex to ascii
 ```
 python -c print '"deadbeef".decode("hex")''
 ```
 
-### convert dec to hex
+### Convert dec to hex
 ```
 python -c "print hex(int(65537))"
 ```
 
-### encode base64
+### Encode base64
 ```
 python -c 'import base64; print(base64.b64encode("dssss"))'
 ```
 
-### decode base64
+### Decode base64
 ```
 python -c 'import base64; print(base64.b64decode("dsfdsfsdfd="))'
 python -c 'import base64; print(base64.b64decode("SEFDS0FGTEFHe09ubHkgU24wd2QzbiBjYW4gZGl2aWRlIGJ5IFplcjB9Cg=="))'
 ```
 
-### sed search n replace
+### Simple sed search n replace
 ```
 sed -i 's/foo/bar/g' FILENAME
 sed -i 's/(//g' abc_patched.txt
