@@ -75,7 +75,7 @@ python -c 'import base64; print(base64.b64encode("dssss"))'
 
 ### Decode base64
 ```
-python -c 'import base64; print(base64.b64decode("dsfdsfsdfd="))'
+echo SEFDS0FGTEFHe09ubHkgU24wd2QzbiBjYW4gZGl2aWRlIGJ5IFplcjB9Cg== | base64 -d
 python -c 'import base64; print(base64.b64decode("SEFDS0FGTEFHe09ubHkgU24wd2QzbiBjYW4gZGl2aWRlIGJ5IFplcjB9Cg=="))'
 ```
 
